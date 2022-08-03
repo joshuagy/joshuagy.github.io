@@ -91,7 +91,6 @@ ul#menu li a {
     color: #FF0000;
 }
 
-/* Slider */
 #red_points_1 {
     position: absolute ;
     width: 268px;
@@ -105,6 +104,8 @@ ul#menu li a {
 #go_down {
     margin-top: 10em;
 }
+
+/* Slider */
 .webdevTitle {
     font-family: 'Actor';
     font-style: normal;
@@ -132,46 +133,16 @@ ul#menu li a {
     text-overflow: "";
     overflow: hidden;
 }
-.slider {
-    height: 100%;
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-.slide {
-    flex-shrink: 0;
-    height: 100%;
-    width: 100%;
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
-/* screen 2 */
-.screen2 {
-    display: flex;
-    flex-wrap: wrap;
+.carousel-indicators li{
+    filter: invert(100%);
 }
 
-.left {
-    width: 45%;
-}
-
-.right {
-    width: 45%;
-    text-align: center;
-}
-
-.slider_image {
-    width: 700px;
-    margin: 2.5em;
-}
-
-.arrow_container {
-    display: block;
-    margin: auto;
-    width: 5%;
-}
-.slider_arrow {
-    margin: auto;
-}
 
 /* screen 3 */
 #screen3 {
