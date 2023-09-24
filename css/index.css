@@ -33,11 +33,6 @@ header {
     text-align: left;
 }
 
-#icone {
-    margin-left: 5em;
-    float: left;
-}
-
 ul#menu {
     float: right;
     margin-top: auto;
@@ -54,7 +49,7 @@ ul#menu li {
     font-weight: 400;
     font-size: 36px;
     line-height: 47px;
-    color: white;
+    color: white !important; 
     text-decoration: underline;
     margin: 1em;
 }
