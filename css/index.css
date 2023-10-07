@@ -194,6 +194,7 @@ ul#menu li {
     height: 100%;
     object-fit:contain;
     background-color: white;
+    border-radius: 25px;
 }
 
 .container .box .body .content{
@@ -206,6 +207,7 @@ ul#menu li {
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transform: rotateY(180deg);
+    border-radius: 25px;
 }
 
 .container .box:hover .body{
@@ -216,7 +218,7 @@ ul#menu li {
     transform-style: preserve-3d;
     padding: 20px;
     background: white;
-    transform: translateZ(100px);
+    transform: translateZ(1px);   
 }
 
 .container .box .body .content div h3{
