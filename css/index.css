@@ -9,12 +9,7 @@ a {
 /* Screen 1 */
 #screen1 {
     height: 100vh;
-    background-color: black;
     text-align: center;
-}
-/* Header part */
-header {
-    background-color: black;
 }
 
 .MenuItemText {
@@ -68,12 +63,11 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 7.5vw;
-    line-height: 5.5vw;
+    line-height: 6vw;
 }
 .webdevTitle strong {
     font-family: 'Amaranth';
     font-style: normal;
-    line-height: 5.5vw;
     font-weight: 700;
 }
 .webdevText {
