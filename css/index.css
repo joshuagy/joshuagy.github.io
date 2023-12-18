@@ -67,19 +67,14 @@ header {
     font-family: 'Actor';
     font-style: normal;
     font-weight: 400;
-    font-size: 120px;
-    line-height: 115px;
-    text-overflow: ""; 
-    overflow: hidden;
+    font-size: 7.5vw;
+    line-height: 5.5vw;
 }
 .webdevTitle strong {
     font-family: 'Amaranth';
     font-style: normal;
-    font-size: 120px;
-    line-height: 155px;
+    line-height: 5.5vw;
     font-weight: 700;
-    text-overflow: "";
-    overflow: hidden;
 }
 .webdevText {
     font-family: 'Alata';
@@ -103,12 +98,6 @@ header {
 
 
 /* screen 3 */
-#screen3 {
-    background-color: black;
-    color: black;
-    height: 100vh;
-}
-
 #screen3Title {
     text-align: center;
     font-family: 'Amaranth';
