@@ -69,11 +69,11 @@ a {
 }
 
 .numeroSlide {
-    font-size: 20em;
+    font-size: 19em;
     position: absolute;
     z-index: 0;
 
-    top: -18%;
+    top: -17%;
     right: 0%;
 }
 
@@ -81,6 +81,6 @@ a {
     position: relative;
     z-index: 1;
     top:10%;
-    right: 7%;
+    right: 10%;
     max-width: 60%;
 }
