@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a {
+    margin: 0 !important;
+}
+/* Screen 1 */
+#screen1 {
+    text-align: center;
+}
+
+.MenuItemText {
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    color: white !important; 
+    text-decoration: underline;
+    margin: 1em;
+}
+
+#imageContact {
+    max-width: 75%;
+}
