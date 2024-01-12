@@ -62,13 +62,14 @@ a {
     font-family: 'Actor';
     font-style: normal;
     font-weight: 400;
-    font-size: 7.5vw;
+    font-size: 6.25vw;
     line-height: 6vw;
 }
 .webdevTitle strong {
     font-family: 'Amaranth';
     font-style: normal;
     font-weight: 700;
+    font-size: 7.25vw;
 }
 .webdevText {
     font-family: 'Alata';
