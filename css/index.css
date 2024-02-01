@@ -96,36 +96,59 @@ a {
 .webdevTitle {
     font-family: 'Actor';
     font-style: normal;
-    font-weight: 400;
-    font-size: 6.25vw;
-    line-height: 6vw;
+    font-weight: 200;
+    font-size: 2vw;
 }
 .webdevTitle strong {
     font-family: 'Amaranth';
     font-style: normal;
-    font-weight: 700;
-    font-size: 7.25vw;
+    font-weight: 900;
+    font-size: 5vw;
 }
+@media (max-width: 992px) {
+    .webdevTitle {
+        font-family: 'Actor';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 4vw;
+    }
+    .webdevTitle strong {
+        font-family: 'Amaranth';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 7vw;
+    }
+    .scrolling-wrapper div {
+        width: 50% !important;
+    }
+}
+@media (max-width: 700px) {
+    .scrolling-wrapper div {
+        width: 100% !important;
+    }
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+    height: 100%;
+}
+
 .webdevText {
+    font-family: 'Actor';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
-    text-overflow: "";
-    overflow: hidden;
-    text-align: justify;
-    text-justify: distribute ;
+    font-weight: 900;
+    font-size: 1.90rem;
+    max-width: 100%;
 }
 
-.carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
+.puce {
+    font-family: 'Actor';
+    background-color: #FF0000;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    color: white;
 }
-
-.carousel-indicators li{
-    filter: invert(100%);
-}
-
 
 /* screen 3 */
 #screen3Title {
