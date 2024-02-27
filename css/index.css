@@ -237,7 +237,7 @@ a {
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transform: rotateY(180deg);
-    border-radius: 25px;
+    border-radius: 22px;
 }
 
 .container .box:hover .body{
