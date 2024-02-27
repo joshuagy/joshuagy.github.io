@@ -116,3 +116,9 @@ a {
     right: 5%;
     top: 0%;
 }
+
+@media screen and (max-width: 900px) {
+    #pres {
+      padding: 0em !important;
+    }
+  }
