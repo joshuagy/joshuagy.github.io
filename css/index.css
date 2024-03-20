@@ -71,6 +71,13 @@ a {
     font-size:  6vw;
     text-align: center;
     margin-bottom: 0;
+    transform: scale(0.00);
+    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
 }
 #name {
     margin-top: 0;
@@ -81,8 +88,25 @@ a {
     text-align: center;
     letter-spacing: 0.5em;
     color: #FF0000;
+    transform: scale(0.00);
+    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
-
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+.navbar {
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
 #red_points_1 {
     position: absolute;
     width: 268px;
