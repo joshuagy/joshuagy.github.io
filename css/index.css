@@ -302,7 +302,9 @@ a {
 .flip-card-back {
     margin-top: -5em;
     text-align: center;
+    display: none;
 }
+
 .carousel-indicators button{
     background-color: black !important;
 }

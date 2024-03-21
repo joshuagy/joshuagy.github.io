@@ -12,6 +12,26 @@ function reveal() {
         reveals[i].classList.remove("active");
       }
     }
-  }
+}
   
-  window.addEventListener("scroll", reveal);
+window.addEventListener("scroll", reveal);
+
+function revealCard(i) {
+    var cards = document.getElementsByClassName("flip-card-back");
+    var card = cards[i-1];
+    var animation = card.animate([
+        { opacity: '0' },
+        { opacity: '1' }
+    ], {
+        duration: 200,
+        fill: 'forwards'
+    });
+
+    animation.onfinish = function() {
+        for (var j = 0; j < cards.length; j++) {
+            if (j != i) {
+                cards[j].style.display = "block";
+            }
+        }
+    };
+}
