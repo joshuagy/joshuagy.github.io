@@ -184,6 +184,18 @@ a {
     color: white;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 /* screen 3 */
 #screen3Title {
     text-align: center;
