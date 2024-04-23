@@ -69,12 +69,11 @@ a {
 }
 
 .numeroSlide {
-    font-size: 19em;
+    font-size: 12em;
     position: absolute;
     z-index: 0;
 
-    top: -17%;
-    right: 0%;
+    right: 5%;
 }
 
 .imageSlide {
