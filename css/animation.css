@@ -1,0 +1,28 @@
+.navbar {
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+body {
+    animation: bodyFadeIn 1.5s;
+}
+
+@keyframes bodyFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+html {
+    background-color: black;
+}
