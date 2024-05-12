@@ -37,36 +37,48 @@ a {
 #sousscreen1 {
     text-align: center;
     color: white;
+    margin-left: 13rem;
+    margin-right: 13rem;
 }
-#creativeText {
-    font-family: 'Amaranth';
-    font-style: normal;
-    font-weight: 700;
-    font-size:  5vw;
-    text-align: center;
-    margin-bottom: 0;
-    transform: scale(0.00);
-    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  }
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-}
-#name {
-    margin-top: 0;
+
+.uppertext {
     font-family: 'Antonio';
     font-style: normal;
-    font-size:  3vw;
-    line-height: 62px;
-    text-align: center;
-    letter-spacing: 0.25    em;
-    color: #FF0000;
-    transform: scale(0.00);
-    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 47px;
+    color: red !important; 
+    text-align:  left;
+
 }
-@keyframes scale {
-    100% {
-      transform: scale(1);
+
+.title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: white !important; 
+    text-align:  left;
+}
+
+.textExpli {
+    text-align: left;
+    max-width: 80%;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+    #sousscreen1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
+    .textExpli {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    
+    .row {
+        display: block !important;
+    }
+    
 }

@@ -7,6 +7,11 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-NCXJXZVD');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
   <!-- End Google Tag Manager -->
 	  <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,6 +51,77 @@
             </div>
           </nav>
       </header>
+      <section id="sousscreen1">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h4 class="uppertext">Mes services</h4>
+              <h2 class="title">Passez à la <red style="color:red;">vitesse supérieure</red>: des services qui propulsent votre entreprise.</h2>
+            </div>
+            <div class="col">
+              <p class="textExpli">J'offre des services de cybersécurité, développement et hébergement, conçus pour renforcer votre entreprise avec des technologies de pointe qui sécurisent, innovent et soutiennent votre croissance.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <div class="accordion" id="servicesAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Audit de sécurité et pentest
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        Description détaillée de l'audit de sécurité et pentest.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Conseil en sécurité et en conception
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
+                    <div class="accordion-body">
+                        Description détaillée du conseil en sécurité et en conception.
+                    </div>
+                </div>
+            </div>
+            <!-- Répétez le bloc ci-dessus pour chaque service supplémentaire -->
+            <style>
+              body {
+                  background-color: #121212;
+                  color: white;
+              }
+              .container {
+                  max-width: 900px;
+              }
+              .accordion-button {
+                  background-color: #333;
+                  color: white;
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+              }
+              .accordion-button:focus {
+                  box-shadow: none;
+              }
+              .accordion-button:not(.collapsed) {
+                  background-color: #222;
+                  color: white;
+              }
+              .accordion-button::after {
+                  filter: invert(1);
+              }
+              .accordion-body {
+                  background-color: #222;
+                  color: white;
+              }
+          </style>
+        </div>
+    </div>
     </section>
 </body>
 </html>
