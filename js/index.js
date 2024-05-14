@@ -35,3 +35,13 @@ function revealCard(i) {
         }
     };
 }
+
+
+document.getElementById('scrollRight').addEventListener('click', function() {
+    const wrapper = document.getElementById('scrollingWrapper');
+    const scrollAmount = wrapper.querySelector('.col-4').offsetWidth; // Width of one item
+    wrapper.scrollBy({ 
+      left: scrollAmount, 
+      behavior: 'smooth' 
+    });
+  });
