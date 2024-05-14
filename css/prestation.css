@@ -64,8 +64,47 @@ a {
     text-align: left;
     max-width: 80%;
     margin-top: 2rem;
-    margin-left: 8rem;
+    margin-left: 6rem;
 }
+
+.accordion-item {
+    border: 0px;
+}
+.container {
+    max-width: 900px;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-top: 0px;
+}
+.accordion-item:last-of-type .accordion-button{
+    border-bottom: 0px;
+}
+.accordion-button {
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 0px !important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+.accordion-button::after {
+    filter: invert(1);
+}
+.accordion-body {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
 
 @media screen and (max-width: 768px) {
     #sousscreen1 {
