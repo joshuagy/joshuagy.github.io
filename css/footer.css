@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+body {
+  font-family: 'Amaranth', sans-serif;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer .dot-grid {
+  height: 100%;
+  background-image: radial-gradient(circle, red 1.5px, transparent 1px);
+  background-size: 30px 30px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer img {
+    width: 40%;
+}

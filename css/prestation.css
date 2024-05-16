@@ -10,6 +10,7 @@ a {
 #screen1 {
     min-height: 100vh;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 .MenuItemText {
