@@ -37,6 +37,8 @@ a {
     min-height: 100vh;
     text-align: center;
     background-image:url("../content/background_index.gif");
+    position: relative;
+    padding-bottom: 5em;
 }
 
 .MenuItemText {
@@ -109,6 +111,11 @@ a {
     }
 }
 
+
+#arrow_down {
+    width: 12rem;
+    justify-content: center;
+}
 /* Slider */
 .webdevTitle {
     font-family: 'Actor';
@@ -137,6 +144,9 @@ a {
     }
     .scrolling-wrapper div {
         width: 50% !important;
+    }
+    #screen1 {
+        min-height: 70vh;
     }
 }
 @media (max-width: 700px) {
