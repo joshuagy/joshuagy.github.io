@@ -34,8 +34,9 @@ a {
 
 /* Screen 1 */
 #screen1 {
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
+    background-image:url("../content/background_index.gif");
 }
 
 .MenuItemText {
@@ -106,14 +107,6 @@ a {
     100% {
         top: 0;
     }
-}
-#red_points_1 {
-    position: absolute;
-    width: 268px;
-    height: 480px;
-    left: 9%;
-    top: 22%;
-    background-repeat: no-repeat;
 }
 
 /* Slider */
