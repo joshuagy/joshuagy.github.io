@@ -8,7 +8,9 @@ a {
 }
 /* Screen 1 */
 #screen1 {
+    min-height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 .MenuItemText {
