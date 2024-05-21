@@ -48,7 +48,6 @@ a {
     font-size: 36px;
     line-height: 47px;
     color: white !important; 
-    text-decoration: underline;
     margin: 1em;
 }
 
@@ -121,26 +120,29 @@ a {
     font-family: 'Actor';
     font-style: normal;
     font-weight: 200;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 .webdevTitle strong {
     font-family: 'Amaranth';
     font-style: normal;
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 4rem;
 }
+
+.webdevText {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.90rem;
+    max-width: 100%;
+}
+
 @media (max-width: 992px) {
     .webdevTitle {
-        font-family: 'Actor';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 4vw;
+        font-size: 1rem;
     }
     .webdevTitle strong {
-        font-family: 'Amaranth';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 7vw;
+        font-size: 2.6rem;
     }
     .scrolling-wrapper div {
         width: 50% !important;
@@ -156,6 +158,10 @@ a {
     }
     .LoadingScreen {
         background-size: 50%;
+
+    }
+    #screen3Title {
+        font-size: 2.2rem;
     }
 }
 @media (max-width: 700px) {
@@ -177,14 +183,6 @@ a {
 .scrolling-wrapper{
 	overflow-x: auto;
     height: 100%;
-}
-
-.webdevText {
-    font-family: 'Actor';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.90rem;
-    max-width: 100%;
 }
 
 .puce {
@@ -214,8 +212,13 @@ a {
     font-family: 'Amaranth';
     font-style: normal;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 4rem;
     line-height: 155px;
+}
+@media (max-width: 992px) {
+    #screen3Title {
+        font-size: 2.2rem;
+    }
 }
 
 
