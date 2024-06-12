@@ -35,13 +35,10 @@ function revealCard(i) {
         }
     };
 }
+const servicesSection = document.querySelector('#services');
 
-
-document.getElementById('scrollRight').addEventListener('click', function() {
-    const wrapper = document.getElementById('scrollingWrapper');
-    const scrollAmount = wrapper.querySelector('.col-4').offsetWidth; // Width of one item
-    wrapper.scrollBy({ 
-      left: scrollAmount, 
-      behavior: 'smooth' 
-    });
-  });
+window.addEventListener('scroll', () => {
+  if (window.scrollY + window.innerHeight >= servicesSection.offsetTop) {
+    servicesSection.classList.add('scrolled');
+  }
+});
