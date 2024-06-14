@@ -35,7 +35,6 @@ a {
 /* Screen 1 */
 #screen1 {
     min-height: 100vh;
-    text-align: center;
     background-image:url("../content/background_index.gif");
     position: relative;
     padding-bottom: 5em;
@@ -63,41 +62,37 @@ a {
 /* Content of the first screen */
 
 #sousscreen1 {
-    text-align: center;
     color: white;
+    margin-top: 3rem;
 }
 #creativeText {
-    font-family: 'Amaranth';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size:  4.5vw;
-    text-align: center;
-    margin-bottom: 0;
-    transform: scale(0.00);
-    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  }
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
+    font-size:  3em;
+    margin-bottom: 1rem;
 }
+#underscrenn1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size:  1.2rem;
+    margin-bottom: 5rem;
+}
+
 #name {
-    margin-top: 0;
+    margin-top: 1rem;
     font-family: 'Antonio';
     font-style: normal;
-    font-size:  2.5vw;
+    font-size:  2em;
     line-height: 62px;
-    text-align: center;
-    letter-spacing: 0.25    em;
+    letter-spacing: 0.1em;
     color: #FF0000;
-    transform: scale(0.00);
-    animation: scale 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
-@keyframes scale {
-    100% {
-      transform: scale(1);
-    }
+
+#souscreen1img {
+    border-radius: 20px;
 }
+
 .navbar {
     animation: fadeIn 2s;
 }
@@ -110,9 +105,11 @@ a {
     }
 }
 
+#go_down {
+    width: 4rem;
+}
 
 #arrow_down {
-    width: 12rem;
     justify-content: center;
 }
 /* Slider */
@@ -135,39 +132,6 @@ a {
     font-weight: 900;
     font-size: 1.90rem;
     max-width: 100%;
-}
-
-@media (max-width: 992px) {
-    .webdevTitle {
-        font-size: 1rem;
-    }
-    .webdevTitle strong {
-        font-size: 2.6rem;
-    }
-    .scrolling-wrapper div {
-        width: 50% !important;
-    }
-    #screen1 {
-        min-height: 70vh;
-        background-image:url("../content/background_index_mobile.gif");
-        background-position: top;
-        background-size: cover;
-    }
-    #arrow_down {
-        width: 6rem;
-    }
-    .LoadingScreen {
-        background-size: 50%;
-
-    }
-    #screen3Title {
-        font-size: 2.2rem;
-    }
-}
-@media (max-width: 700px) {
-    .scrolling-wrapper div {
-        width: 100% !important;
-    }
 }
 
 .right-arrow {
