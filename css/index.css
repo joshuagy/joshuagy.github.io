@@ -112,6 +112,37 @@ a {
 #arrow_down {
     justify-content: center;
 }
+
+
+/*Key number*/
+#keynumbers {
+    font-family: "Inter";
+     background-color: white;
+}
+
+.bubble {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em
+}
+
+.bubble h3 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.bubble p {
+    font-size: 18px;
+    color: #666;
+}
+
 /* Slider */
 .webdevTitle {
     font-family: 'Actor';
@@ -171,13 +202,9 @@ a {
 }
 
 /* screen 3 */
-#screen3Title {
-    text-align: center;
-    font-family: 'Amaranth';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: 155px;
+#screen3Title {    
+    font-size: 3rem;
+    padding-bottom: 2rem;
 }
 @media (max-width: 992px) {
     #screen3Title {
@@ -279,8 +306,13 @@ a {
 }
 
 .flip-card-back {
+    font-family: 'Arial';
     text-align: center;
     display: none;
+}
+
+.flip-card-back h3 {
+    font-family: "Antonio";
 }
 
 .carousel-indicators button{
@@ -289,11 +321,10 @@ a {
 
 .service-card {
     background-color: #fff;
-    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 400px;
+    height: 100%;
 }
 
 .service-card img {
